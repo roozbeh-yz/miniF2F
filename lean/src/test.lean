@@ -814,7 +814,7 @@ end
 theorem mathd_numbertheory_769 :
   (129^34 + 96^38) % 11 = 9 :=
 begin
-  sorry
+  norm_num,
 end
 
 theorem mathd_algebra_452
